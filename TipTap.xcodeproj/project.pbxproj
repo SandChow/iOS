@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C3CC1991DFF6F40004C8C0C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CC1981DFF6F40004C8C0C /* SettingsViewController.swift */; };
 		2C76AC2D1DFE9D7000185820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76AC2C1DFE9D7000185820 /* AppDelegate.swift */; };
 		2C76AC2F1DFE9D7000185820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76AC2E1DFE9D7000185820 /* ViewController.swift */; };
 		2C76AC321DFE9D7000185820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C76AC301DFE9D7000185820 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C3CC1981DFF6F40004C8C0C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		2C76AC291DFE9D7000185820 /* TipTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C76AC2C1DFE9D7000185820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C76AC2E1DFE9D7000185820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		2C76AC2B1DFE9D7000185820 /* TipTap */ = {
 			isa = PBXGroup;
 			children = (
+				2C3CC1981DFF6F40004C8C0C /* SettingsViewController.swift */,
 				2C76AC2C1DFE9D7000185820 /* AppDelegate.swift */,
 				2C76AC2E1DFE9D7000185820 /* ViewController.swift */,
 				2C76AC301DFE9D7000185820 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				2C76AC2F1DFE9D7000185820 /* ViewController.swift in Sources */,
 				2C76AC2D1DFE9D7000185820 /* AppDelegate.swift in Sources */,
+				2C3CC1991DFF6F40004C8C0C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				2C76AC531DFE9D7000185820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C76AC541DFE9D7000185820 /* Build configuration list for PBXNativeTarget "TipTapTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				2C76AC561DFE9D7000185820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C76AC571DFE9D7000185820 /* Build configuration list for PBXNativeTarget "TipTapUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				2C76AC591DFE9D7000185820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

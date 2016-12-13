@@ -10,17 +10,30 @@ import UIKit
 
 class SettingsViewController: UIViewController {
     
+    @IBOutlet weak var DefaultTipControl: UISegmentedControl!
+    
+    let defaults = UserDefaults.standard
+    let defaultTipKey = "20%"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Sets the title in the Navigation Bar
         self.title = "Settings"
+        DefaultTipControl.selectedSegmentIndex = defaults.integer(forKey: defaultTipKey)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func onTipChanged(_ sender: AnyObject)
+    {
+        defaults.set(DefaultTipControl.selectedSegmentIndex, forKey: defaultTipKey)
+        defaults.synchronize()
+    }
+    
     
 
     /*

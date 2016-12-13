@@ -15,9 +15,24 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     
+    let key = "20%"
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let defaults = UserDefaults.standard
+        if let key = defaults.object(forKey: key) as? Int
+        {
+            tipControl.selectedSegmentIndex = key
+            billField.text = ""
+            tipLabel.text = "$0.00"
+            totalLabel.text = "$0.00"
+        }
     }
 
     override func didReceiveMemoryWarning() {

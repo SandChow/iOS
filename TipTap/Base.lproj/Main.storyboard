@@ -134,11 +134,17 @@
                                     <segment title="20%"/>
                                     <segment title="25%"/>
                                 </segments>
+                                <connections>
+                                    <action selector="onTipChanged:" destination="9kO-WC-V28" eventType="valueChanged" id="TD7-Zg-Ge3"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="0.56202012300000004" green="0.99608391519999995" blue="0.42770451310000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.11359548009999999" green="0.4794921875" blue="0.26006044699999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="DefaultTipControl" destination="yaG-5j-Tvd" id="3xL-SX-meM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gEc-eE-Xyq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

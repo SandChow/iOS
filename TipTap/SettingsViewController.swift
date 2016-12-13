@@ -9,11 +9,12 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // Sets the title in the Navigation Bar
+        self.title = "Settings"
     }
 
     override func didReceiveMemoryWarning() {

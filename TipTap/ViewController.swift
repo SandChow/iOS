@@ -20,7 +20,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    override func viewWillAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) 
+    {
         let key = "20%"
         billField.becomeFirstResponder()
         let defaults = UserDefaults.standard
@@ -43,7 +44,8 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
 
-    @IBAction func calculateTip(_ sender: AnyObject){
+    @IBAction func calculateTip(_ sender: AnyObject)
+    {
         let tipPercentages = [0.15, 0.2, 0.25]
         
         let bill = Double(billField.text!) ?? 0

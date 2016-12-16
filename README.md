@@ -22,6 +22,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] Current amounts reset when default tip percentage is modified.
+- [x] Keyboard disappears and appears with a tap.
 
 ## Video Walkthrough 
 
@@ -34,6 +35,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+- Had many SIGABRT errors when deleted elements were not unlinked.  
+- Too many functions to choose from and not knowing which one is best for each functionality.  
+- Linking different screens and understanding how the code and screens come together.  
 
 ## License
 
